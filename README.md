@@ -1,4 +1,6 @@
-# Whispcat Cat
+# Whispcat's brew tap
+
+This tap provide some formulae and casks for cat's personal use.
 
 ## How do I install these formulae?
 
