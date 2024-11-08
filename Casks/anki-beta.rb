@@ -1,11 +1,11 @@
 cask "anki-beta" do
   arch arm: "apple", intel: "intel"
 
-  version "24.10rc2"
-  sha256 arm:   "15c5fe574202149c473ea7be61e1953c83e544230db84ef22234a35749a6176f",
-         intel: "eb8e5fe99bafc14c082cbf7549dc6eb10dae823c76b45476aa3ef129efc7b94f"
+  version "24.11rc1"
+  sha256 arm:   "692c09a50e69d30683237ccc633dd3491efe7f31f708d539afa601998241ea2d",
+         intel: "eda302a05439a80bcdbf913a0708df621c88b75261d2a1292b6277e0d73112a5"
 
-  url "https://github.com/ankitects/anki/releases/download/#{version}/anki-#{version.sub("rc2", "")}-mac-#{arch}-qt6.dmg",
+  url "https://github.com/ankitects/anki/releases/download/#{version}/anki-#{version.sub("rc1", "")}-mac-#{arch}-qt6.dmg",
       verified: "github.com/ankitects/anki/"
   name "Anki newest version possible, including beta and rc"
   desc "Memory training application"
