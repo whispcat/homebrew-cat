@@ -7,7 +7,7 @@ cask "anki-beta" do
 
   url "https://github.com/ankitects/anki/releases/download/#{version}/anki-#{version.sub("rc1", "")}-mac-#{arch}-qt6.dmg",
       verified: "github.com/ankitects/anki/"
-  name "Anki Newest"
+  name "Anki Beta"
   desc "Memory training application"
   homepage "https://apps.ankiweb.net/"
 
